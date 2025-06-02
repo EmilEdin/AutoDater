@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Tinder Auto-Swiper + AI + Calendar",
+  "version": "1.0",
+  "description": "Auto-swipe, auto-message with AI, and create calendar events when a date is set on Tinder Web.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "notifications",
+    "identity",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://tinder.com/*",
+    "https://api.gemini.example/*",
+    "https://www.googleapis.com/*"
+  ],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://tinder.com/*"],
+      "js": ["content_scripts.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
