@@ -1,4 +1,5 @@
-**DISCLAMER:** This project was made to explore browser automation and Chrome extension development. Not intended for real-world use. Educational only
+**IMPORTANT DISCLAMER:** 
+This project was made to explore browser automation and Chrome extension development. Not intended for real-world use. Educational only
 
 This is an Tinder gamechanger. It will automate the whole awful tinder experience for you! 
 Automatically swiping, automatically messaging and setting up your very first tinder date! 
