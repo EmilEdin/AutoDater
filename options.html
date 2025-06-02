@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Extension Options</title>
+</head>
+<body>
+  <h2>Extension Settings</h2>
+  <form id="options-form">
+    <label>
+      Gemini API Key:<br />
+      <input type="text" id="geminiKey" placeholder="ENTER_YOUR_GEMINI_KEY" size="50" />
+    </label>
+    <br /><br />
+    <label>
+      Google OAuth Client ID:<br />
+      <input type="text" id="googleClientId" placeholder="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com" size="50" />
+    </label>
+    <br /><br />
+    <button type="submit">Save</button>
+    <span id="status" style="margin-left: 10px; color: green;"></span>
+  </form>
+
+  <script src="options.js"></script>
+</body>
+</html>
